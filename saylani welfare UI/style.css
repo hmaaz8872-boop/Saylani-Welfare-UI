@@ -1,0 +1,517 @@
+/* Navbar Styling */
+
+nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo Styling */
+
+nav img {
+    width: 180px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Email and Phone Links */
+
+nav > a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Language Select */
+
+nav select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Buttons Styling */
+
+nav button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8dc63f;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+
+nav button:hover {
+    background-color: #6fa52c;
+}
+
+/* Second Navigation Menu */
+
+#second {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #f5f5f5;
+    padding: 18px 10px;
+    box-sizing: border-box;
+}
+
+/* Second Menu Links */
+
+#second a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Menu Hover Effect */
+
+#second a:hover {
+    color: #8dc63f;
+}
+
+/* Remove Extra Line Break */
+
+nav br {
+    display: none;
+}
+
+button{
+    color: white;
+    background-color: #8dc63f;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: red;
+    background-color: white;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    border: 0px solid black;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+}
+
+h2 span{
+    color: green;
+}
+
+#cards{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.card-1{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-2{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-3{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-4{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Third Section Styling */
+
+#third {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 50px 30px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styling */
+
+#third h2 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Donate Text */
+
+#third span {
+    color: #8dc63f;
+}
+
+/* Paragraph Styling */
+
+#third p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Donation Links */
+
+#third a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: #333;
+    padding: 18px 30px;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+
+#third a:hover {
+    background-color: #8dc63f;
+    color: white;
+    border-color: #8dc63f;
+}
+
+#impact{
+    background-color: #6fa52c;
+}
+
+#impact h1{
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.imp-1{
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.imp-2{
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.imp-3{
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.imp-4{
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Fourth Section */
+
+#fourth {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+
+#fourth h1 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Heading Span */
+
+#fourth h1 span {
+    color: #8dc63f;
+}
+
+/* Paragraph */
+
+#fourth p {
+    font-size: 16px;
+    color: #666;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+/* Categories Main Div */
+
+#categories {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+/* Category Links */
+
+#categories a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 13px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+
+#categories a:hover {
+    background-color: #8dc63f;
+    color: white;
+    border-color: #8dc63f;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+}
+
+h1 span{
+    color: green;
+}
+
+#button-bhai{
+    margin-left: 50%;
+}
+
+#button-jani{
+    margin-left: 50%;
+}
+
+#button-k{
+    margin-left: 50%;
+}
+
+/* Newsletter Section */
+
+#newsletter {
+    width: 100%;
+    height: 200px;
+    background-color: #45b51e;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#newsletter h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#newsletter p {
+    color: white;
+    font-size: 14px;
+}
+
+/* Email Box */
+
+#email-box {
+    width: 380px;
+    margin: 30px auto;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+
+/* Input */
+
+#email-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#email-box input::placeholder {
+    color: white;
+}
+
+/* Subscribe Button */
+
+#email-box button {
+    background-color: white;
+    color: #45b51e;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Main Footer */
+
+footer {
+    width: 100%;
+    background-color: #151f30;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+
+#footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+
+/* Footer Columns */
+
+.footer-box {
+    width: 22%;
+}
+
+/* Footer Logo */
+
+.footer-box img {
+    margin-bottom: 20px;
+}
+
+/* Footer Headings */
+
+.footer-box h3 {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+/* Footer Paragraphs */
+
+.footer-box p {
+    color: #c5cbd3;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* Footer Links */
+
+.footer-box > a {
+    display: block;
+    text-decoration: none;
+    color: #dce1e8;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+/* Links Hover */
+
+.footer-box > a:hover {
+    color: #8dc63f;
+}
+
+/* Social Media Links */
+
+#social-links {
+    display: flex;
+    gap: 7px;
+    margin-top: 20px;
+}
+
+#social-links a {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: #151f30;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Social Hover */
+
+#social-links a:hover {
+    background-color: #8dc63f;
+    color: white;
+}
+
+
+/* Copyright Section */
+
+#copyright {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-top: 1px solid #293447;
+}
+
+/* Copyright Text */
+
+#copyright p {
+    color: white;
+    font-size: 11px;
+}
+
+/* Copyright Links */
+
+#copyright a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 20px;
+}
+
+#copyright a:hover {
+    color: #8dc63f;
+}
